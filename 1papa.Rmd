@@ -1,0 +1,57 @@
+\begin{document}
+\title{Introductory Statistics}
+\author{Dr. Francois Nguyen}
+\date{\today}
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\section{Introduction}
+This is the introduction.
+\section{Methods}
+%This is new FTN-A
+```{cars}
+summary(cars)
+```
+%This FTN-Z
+\subsection{Stage 1}
+\label{section-1}
+The first part of the methods.
+\subsection{Stage 2}
+The second part of the methods.
+\section{Results}
+Here are my results.\ref{sec-1} on page \pageref{section-2}
+\textit{words in italics} words in italics
+\textsl{words slanted} words slanted
+\textsc{words in smallcaps} words in smallcaps
+\textbf{words in bold} words in bold
+\texttt{words in teletype} words in teletype
+\textsf{sans serif words} sans serif words
+\textrm{roman words} roman words
+\underline{underlined words} underlined words
+{\color{red}fire}
+{\tiny tiny words}
+{\tiny tiny words} tiny words
+{\scriptsize scriptsize words} scriptsize words
+{\footnotesize footnotesize words} footnotesize words
+{\small small words} small words
+{\normalsize normalsize words} normalsize words
+{\large large words} large words
+{\Large Large words} Large words
+{\LARGE LARGE words} LARGE words
+{\huge huge words}
+\begin{enumerate}
+\item First thing
+\item Second thing
+\begin{itemize}
+\item A sub-thing
+\item Another sub-thing
+\end{itemize}
+\item Third thing
+\end{enumerate}
+It is a truth universally acknowledged% Note comic irony
+in the very first sentence
+, that a single man in possession of a good fortune, must
+be in want of a wife.
+\end{document}
